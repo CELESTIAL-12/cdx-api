@@ -1,0 +1,73 @@
+ <!--
+ <html>
+    <head>
+
+
+    </head>
+
+    <body>
+
+        <form class = "grid" action = "/result" method ="POST"
+            <center>
+                {% if name %}
+                <h3 style ="color: blue;">Hello {{name}},How are you ? </h3>
+
+                {% endif %}
+
+
+
+            </center>
+
+            <label for = "Name">Enter your Name :</label>
+            <input type="text" name="name" id= "name">
+            <center><input type="Submit" class = "file_submit"></center
+            
+    </body>
+
+
+</html>
+
+-->
+
+<html>
+    <head>
+        <meta charset= "UTF-8">
+        <title>GPT</title>
+
+
+
+    </head>
+
+    <body>
+        <h1>GPT PROMPT</h1>
+        <form method="post"  action="/predict">
+{% comment %}             <label>BOOK_NAME</label><br>
+            <input type="text" name="BOOK_NAME"><br><br> {% endcomment %}
+
+            <label>INPUT</label><br>
+            <input type="text" name="PROMPT"><br><br>
+
+            <input type="submit" name="ENTER"><br><br>
+
+            <label>ANSWER</label><br>
+            <input type="text" value="ANSWER"><br><br>
+
+        </form>
+
+
+
+
+
+    </body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
